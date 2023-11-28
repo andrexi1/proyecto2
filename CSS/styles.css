@@ -1,0 +1,42 @@
+body{
+  background-image: url('../IMAGES/fondo3.jpg');
+}
+
+.spinner{
+  border: 8px solid rgb(236, 155, 155);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border-left-color: transparent;
+
+  animation:spin 3s linear infinite;
+  margin-right: 900px;
+}
+
+@keyframes spin{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+header{
+  display: flex;
+}
+
+#res{
+  display: inline-block;
+}
+
+#correo{
+  display: inline;
+  color: azure;
+}
+
+#palabra{
+  display: inline;
+  color: azure;
+  margin-left: 100px;
+}
